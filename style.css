@@ -1,7 +1,17 @@
-html, body {
+* {
   margin: 0;
   padding: 0;
 }
+
+html, body {
+  margin: 100 ;
+  padding: 100 ;
+  display: flex;
+  flex-direction: center;
+  background-attachment: auto;
+}
 canvas {
   display: block;
+
 }
+

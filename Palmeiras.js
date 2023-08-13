@@ -1,4 +1,4 @@
-// codigos do Rony
+// codigos do Palmeiras
 let xPalmeiras = 87
 let yPalmeiras = 370
 let colisao = false
