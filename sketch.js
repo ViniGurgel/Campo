@@ -1,7 +1,6 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    somDaTrilha.loop();
-  
+      
 }
 
 
