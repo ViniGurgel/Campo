@@ -1,7 +1,9 @@
 function setup() {
-  createCanvas(500, 400);
-  somDaTrilha.loop();
+    createCanvas(windowWidth, windowHeight);
+    somDaTrilha.loop();
+  
 }
+
 
 function draw() {
   background(imagemCampo);
