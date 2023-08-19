@@ -1,8 +1,8 @@
 // codigo do carro
 
-let xBandeiras = [600, 600, 600, 600, 600, 600];
+let xBandeiras = [1000, 1000, 1000, 1000,1000, 1000];
 let yBandeiras = [40, 96, 150, 210, 270, 318];
-let velocidadeBandeiras = [2, 2.5, 3.2, 5, 3.3, 2,3]
+let velocidadeBandeiras = [6, 5.5, 4.2, 4, 7.3, 4,3]
 let comprimentoBandeira = 50;
 let alturaBandeira = 40;
 
@@ -22,7 +22,7 @@ function mostraBandeiras (){
 function voltaPosicaoInicialBandeira(){
   for (let i=0; i< xBandeiras.length; i++){
   if (passouTodaTela(xBandeiras[i])){
-    xBandeiras[i] = 600}}
+    xBandeiras[i] = 1000}}
 }
 
 function passouTodaTela(xBandeiras){

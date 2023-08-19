@@ -1,6 +1,6 @@
 // codigos do Palmeiras
 let xPalmeiras = 87
-let yPalmeiras = 370
+let yPalmeiras = 409
 let colisao = false
 let meusPontos = 0
 
@@ -30,7 +30,7 @@ function verificaColisao(){
     }
   }    
   function voltaPalmeirasParaPosicaoInicial (){
-    yPalmeiras = 370
+    yPalmeiras = 409
   }
   function incluiPontos() {
     textAlign (CENTER);
